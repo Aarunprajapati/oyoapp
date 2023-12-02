@@ -26,7 +26,7 @@ const SingleHotels = ({ hotel }) => {
           src={hotel?.banner}
           width={2000}
           height={2000}
-          alt="Hotel Image"
+          alt="HotelImage"
           className="w-9/12 h-single-page rounded-2xl mx-auto my-5"
         />
         <div className="my-3 flex flex-col w-9/12 mx-auto">
@@ -57,6 +57,7 @@ const SingleHotels = ({ hotel }) => {
                     <Image
                       src={facility.img}
                       width={200}
+                      alt="HotelImages"
                       height={200}
                       className="w-8 h-8"
                     />
@@ -69,6 +70,7 @@ const SingleHotels = ({ hotel }) => {
                   src={hotel?.gallery[0]}
                   width={200}
                   height={200}
+                  alt="images"
                   className="w-52 h-48 rounded-lg mr-0"
                 />
               </div>
