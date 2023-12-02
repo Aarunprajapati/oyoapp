@@ -5,7 +5,7 @@ const Header4 = () => {
   return (
     <div className=" mx-20 h-24 flex justify-between items-center border-2 border-gray-300 py-5 px-5 ">
         <div className=" flex items-center mt-5">
-            <Image src={'/header4logo.svg'} width={200} height={200} className=" w-14 h-14"/>
+            <Image src={'/header4logo.svg'} width={200} height={200} alt="header4image" className=" w-14 h-14"/>
             <div className="ml-5">
                 <h2 className=" font-bold text-xl space-x-4">Get access to exclusive deals</h2>
                 <p className="text-lg text-gray-600">Only the best deals reach your inbox</p>

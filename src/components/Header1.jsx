@@ -27,7 +27,7 @@ const Header1 = () => {
   return (
     <div className="flex h-20 border-b-2 border-gray-300 justify-between items-center px-20 py-5">
       <div className="flex items-center justify-center h-full">
-        <Image src="/logo.jpeg" width={200} height={200} className="w-24 h-8 img-fluid" />
+        <Image src="/logo.jpeg" width={200} height={200} alt='header1image' className="w-24 h-8 img-fluid" />
       </div>
 
       <div className="flex h-full">
@@ -37,7 +37,7 @@ const Header1 = () => {
         <Block title="0124-6201611" text="Call us to Book now" svg="./demo3.svg" />
 
         <div className="flex items-center px-2">
-          <Image src="/contact.svg" width={200} height={200} className="w-6 mt-1 rounded-full" />
+          <Image src="/contact.svg" width={200} height={200} alt='header1image2' className="w-6 mt-1 rounded-full" />
 
           {auth ? (
             <button

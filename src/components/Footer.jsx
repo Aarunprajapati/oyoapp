@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="grid grid-cols-2 mx-20 my-10 h-screen bg-gray-200">
         <div className=' col-span-1 flex items-center justify-center'>
-           <Image src={'/footer1.png'} width={500} height={500} alt="footer" className=" img-fluid"/>
+           <Image src={'/footer1.png'} width={500} height={500} alt="footerimage" className=" w-80 h-80"/>
         </div>
         <div className=' col-span-1 mt-24 '>
             <h1 className=" my-6 text-2xl font-bold text-black-50">World's leading chain of hotels and homes</h1>
