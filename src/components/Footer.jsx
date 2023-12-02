@@ -7,7 +7,7 @@ const Footer = () => {
            <Image src={'/footer1.png'} width={500} height={500} alt="footerimage" className=" w-80 h-80"/>
         </div>
         <div className=' col-span-1 mt-24 '>
-            <h1 className=" my-6 text-2xl font-bold text-black-50">World's leading chain of hotels and homes</h1>
+            <h1 className=" my-6 text-2xl font-bold text-black-50">World&apos;s leading chain of hotels and homes</h1>
             <p>More Destinations. More Ease. More Affordable</p>
             <div className="flex my-10 w-64 justify-between items-center">
                 <div className=" border ">
